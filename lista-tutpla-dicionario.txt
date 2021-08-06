@@ -1,0 +1,68 @@
+# lista, tupla, dicionarios
+
+# frutas = ['maca','banana','laranja']
+
+# print (frutas)
+#print(frutas[3])
+# for fruta in frutas:
+#     print(fruta)
+
+
+# print(type(frutas))
+
+# final da lista
+#frutas.append('morango')
+
+#adicionar 1
+#frutas.insert(1,'limao')
+
+# remover último item da lista.
+#frutas.pop()
+# print(frutas)
+
+#list []
+#tuplas ()
+#dicionarios {}
+
+# cores = ('Azul','Vermelho','Verde')
+#cores[2] = 'Roxo'
+
+# print(len(cores))
+
+pessoa = {
+    'nome': 'Rony',
+    'idade': 28
+}
+# pessoa['nome'] = 'Ana'
+# pessoa.pop('nome')
+# pessoa['altura'] = 1.80
+# print(pessoa)
+
+### funções
+
+
+def soma(a,b):
+    print(a+b)
+def multi(a=5,b=5,c=5):
+    print(a*b*c)
+
+def imprime(nome,message = 'Olá'):
+    print(message + ' ' +  nome)
+
+# soma(10,10)
+# multi(a=4,c=4,b=4)
+# imprime(nome='Rony')
+# imprime(nome='Ana')
+# imprime(nome='Potira')
+
+# def soma2(a,b):
+#     return a + b
+# somaNumero = soma2(10,5)
+# print(somaNumero)
+def soma(a,b):
+    return a + b
+#0 1 2 3 4
+for i in range(10):
+    somaNumeros = soma(i,i+2)
+    print(type(somaNumeros))
+
